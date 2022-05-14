@@ -13,8 +13,9 @@ function App() {
     <div>
       <Header />
 
+      < Navigation />
+
       <main>
-        < Navigation />
         < About />
       </main>
 
