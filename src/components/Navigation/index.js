@@ -19,14 +19,14 @@ function Nav(props) {
                     {
                         components.map((component) => (
                             <li className = {
-                                `mx-1
+                                `mx-2
                                 ${currentComponent.name === component.name && 'navActive'}
                                 `}
                                 key = {component.name}
                             >
                                 <span onClick = {
                                     () => {setCurrentComponent(component)}
-                                }></span>
+                                }>{component.name}</span>
                             </li>
                         ))
                     }

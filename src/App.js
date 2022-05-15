@@ -8,7 +8,6 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 function App() {
-  //const [contactSelected, setContactSelected] = useState(false);
   const [components] = useState([
     { name: "About", description: < About /> },
     { name: "Contact", description: < Contact /> },
@@ -18,15 +17,23 @@ function App() {
 
   return (
     <div>
-      < Header 
+      < Header
         components = {components}
         currentComponent = {currentComponent}
         setCurrentComponent = {setCurrentComponent}
       />
       <main>
-        <About />
-        <Contact />
-        <Projects />
+        {(() => {
+          if(currentComponent.name === 'Projects'){
+              return (<Projects />)
+          }
+          else if(currentComponent.name === 'Contact'){
+            return (<Contact />)
+          }
+          else if(currentComponent.name === 'About'){
+            return (<About />)
+          }
+        })()}
       </main>
       < Footer />
     </div>
