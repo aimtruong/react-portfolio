@@ -9,18 +9,16 @@ function Nav(props) {
     } = props;
 
     return (
-        <header className = "flex-row px-1">
+        <header className = "header">
             <h2>
-                <a href = '/'>
                 Aimee Truong
-                </a>
             </h2>
             <nav>
                 <ul className = 'flex-row'>
                     {
                         components.map((component) => (
                             <ul className = {
-                                `mx-2
+                                `components
                                 ${currentComponent.name === component.name && 'navActive'}
                                 `}
                                 key = {component.name}

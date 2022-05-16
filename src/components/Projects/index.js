@@ -3,7 +3,7 @@ import React from 'react';
 // need six projects added with github and deployed sites
 const Projects = () => {
     return (
-        <div>
+        <div className = 'projects'>
             <h2>
             Portfolio
             </h2>

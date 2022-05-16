@@ -41,7 +41,7 @@ function ContactForm(){
 
     // need name, email, and message
     return (
-        <section>
+        <section className = 'contact'>
             <h1 id = 'h1tag'>Contact me</h1>
             <form id = 'contact-form' onSubmit = {handleSubmit} >
                 <div>

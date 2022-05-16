@@ -3,7 +3,7 @@ import React from 'react';
 // need a downloadable resume and proficiencies
 const Resume = () => {
     return(
-        <div>
+        <div className = 'resume'>
             <h2>Resume</h2>
             <ul>
                 <a href = 'https://drive.google.com/file/d/1O89TisARBST-ME9UQboHZa8M6sf51ch2/view?usp=sharing' target = "_blank">

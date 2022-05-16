@@ -11,8 +11,8 @@ const Header = (props) => {
     } = props;
 
     return (
-        <header className="bg-secondary mb-4 py-2 flex-row align-center">
-        <div className="container flex-row justify-space-between-lg justify-center align-center">
+      <header>
+        <div>
           < Navigation
             className = 'text-center'
             components = {components}
@@ -20,7 +20,7 @@ const Header = (props) => {
             setCurrentComponent = {setCurrentComponent}
           />
         </div>
-        </header>
+      </header>
     );
 };
 
