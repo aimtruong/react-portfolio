@@ -1,6 +1,7 @@
 
 import React from 'react';
 
+// need github, linkedin, and third party website
 const Footer = () => {
     return (
         <footer className = "footer">

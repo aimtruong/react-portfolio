@@ -8,7 +8,9 @@ import Projects from './components/Projects';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
+
 function App() {
+  // variables to change useState of website
   const [components] = useState([
     { name: "About", description: < About /> },
     { name: "Portfolio", description: < Projects /> },

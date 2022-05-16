@@ -3,10 +3,12 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 
 function ContactForm(){
+    // get variables for field values
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
+    // check if fields are valid
     function handleChange(e){
         if(e.target.value.length <= 280){
             if(e.target.value.length === 0){
@@ -32,10 +34,12 @@ function ContactForm(){
         }
     };
 
+    // submit form
     function handleSubmit(e){
         e.preventDefault();
     }
 
+    // need name, email, and message
     return (
         <section>
             <h1 id = 'h1tag'>Contact me</h1>

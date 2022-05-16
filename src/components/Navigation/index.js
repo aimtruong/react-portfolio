@@ -1,6 +1,7 @@
 
 import React from "react";
 
+// need About, Portfolio, Contact, and Resume sections
 function Nav(props) {
     const { components = [],
             currentComponent,

@@ -1,5 +1,6 @@
 import React from 'react';
 
+// need a downloadable resume and proficiencies
 const Resume = () => {
     return(
         <div>

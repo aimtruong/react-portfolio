@@ -2,6 +2,7 @@
 import React from 'react';
 import Navigation from '../Navigation';
 
+// pushed from App.js to bring to Nav
 const Header = (props) => {
     const {
         components = [],
