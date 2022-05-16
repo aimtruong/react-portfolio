@@ -12,7 +12,7 @@ const Projects = () => {
             <img src = {require('../../assets/images/weather-dashboard.JPG')} alt = 'weather-dashboard' height = '120px'></img>
             </a>
             <a href = 'https://github.com/aimtruong/weather-dashboard' target = '_blank'>
-                <img src = {require('../../assets/images/github.png')} height = '30px'></img>
+                <img src = {require('../../assets/images/github.png')} alt = 'weather dashboard github' height = '30px'></img>
             </a>
             </div>
 
@@ -21,7 +21,7 @@ const Projects = () => {
             <img src = {require('../../assets/images/hobby-search.jfif')} alt = 'hobby-search' height = '150px'></img>
             </a>
             <a href = 'https://github.com/aimtruong/hobby-search' target = '_blank'>
-                <img src = {require('../../assets/images/github.png')} height = '30px'></img>
+                <img src = {require('../../assets/images/github.png')} alt = 'hobby search github' height = '30px'></img>
             </a>
             </div>
 
@@ -30,7 +30,7 @@ const Projects = () => {
             <img src = {require('../../assets/images/note-taker.jfif')} alt = 'note-taker' height = '150px'></img>
             </a>
             <a href = 'https://github.com/aimtruong/note-taker' target = '_blank'>
-                <img src = {require('../../assets/images/github.png')} height = '30px'></img>
+                <img src = {require('../../assets/images/github.png')} alt = 'note taker github' height = '30px'></img>
             </a>
             </div>
 
@@ -39,7 +39,7 @@ const Projects = () => {
             <img src = {require('../../assets/images/tech-blog.jfif')} alt = 'tech-blog' height = '150px'></img>
             </a>
             <a href = 'https://github.com/aimtruong/tech-blog' target = '_blank'>
-                <img src = {require('../../assets/images/github.png')} height = '30px'></img>
+                <img src = {require('../../assets/images/github.png')} alt = 'tech blog github' height = '30px'></img>
             </a>
             </div>
 
@@ -48,7 +48,7 @@ const Projects = () => {
             <img src = {require('../../assets/images/handy-helper.jfif')} alt = 'handy-helper' height = '100px'></img>
             </a>
             <a href = 'https://github.com/aimtruong/handy-helper' target = '_blank'>
-                <img src = {require('../../assets/images/github.png')} height = '30px'></img>
+                <img src = {require('../../assets/images/github.png')} alt = 'handy helper github' height = '30px'></img>
             </a>
             </div>
 
@@ -57,7 +57,7 @@ const Projects = () => {
             <img src = {require('../../assets/images/budget-tracker.jfif')} alt = 'budget-tracker' height = '150px'></img>
             </a>
             <a href = 'https://github.com/aimtruong/budget-tracker-pwa' target = '_blank'>
-                <img src = {require('../../assets/images/github.png')} height = '30px'></img>
+                <img src = {require('../../assets/images/github.png')} alt = 'budget tracker github' height = '30px'></img>
             </a>
             </div>
 

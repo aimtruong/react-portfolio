@@ -1,6 +1,7 @@
 
 import React from 'react';
 
+// need profile pic and bio
 function About(){
     return (
         <section className = 'my-5'>

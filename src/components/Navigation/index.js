@@ -18,7 +18,7 @@ function Nav(props) {
                 <ul className = 'flex-row'>
                     {
                         components.map((component) => (
-                            <li className = {
+                            <ul className = {
                                 `mx-2
                                 ${currentComponent.name === component.name && 'navActive'}
                                 `}
@@ -27,7 +27,7 @@ function Nav(props) {
                                 <span onClick = {
                                     () => {setCurrentComponent(component)}
                                 }>{component.name}</span>
-                            </li>
+                            </ul>
                         ))
                     }
                 </ul>
