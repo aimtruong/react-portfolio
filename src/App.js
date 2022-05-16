@@ -5,13 +5,15 @@ import Header from './components/Header';
 import About from './components/About';
 import Contact from './components/Contact';
 import Projects from './components/Projects';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 function App() {
   const [components] = useState([
     { name: "About", description: < About /> },
+    { name: "Portfolio", description: < Projects /> },
     { name: "Contact", description: < Contact /> },
-    { name: "Projects", description: < Projects /> }
+    { name: "Resume", description: <Resume />}
   ]);
   const [currentComponent, setCurrentComponent] = useState(components[0]);
 
@@ -24,14 +26,17 @@ function App() {
       />
       <main>
         {(() => {
-          if(currentComponent.name === 'Projects'){
-              return (<Projects />)
+          if(currentComponent.name === 'About'){
+              return (<About />)
           }
           else if(currentComponent.name === 'Contact'){
             return (<Contact />)
           }
-          else if(currentComponent.name === 'About'){
-            return (<About />)
+          else if(currentComponent.name === 'Portfolio'){
+            return (<Projects />)
+          }
+          else if(currentComponent.name === 'Resume'){
+            return (<Resume />)
           }
         })()}
       </main>
