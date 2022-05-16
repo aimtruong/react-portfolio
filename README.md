@@ -22,7 +22,7 @@
 
 
 ## First Look
-![first-look]()
+![first-look](src/assets/images/first-look.JPG)
 
 ![Deployed-Link](https://aimtruong.github.io/react-portfolio/)
 
