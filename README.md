@@ -10,6 +10,7 @@
 
 ## Table of Contents
 - [Usage](#usage)
+- [First-Look](#first-look)
 - [Contributing](#contributing)
 - [Questions](#questions)
 
@@ -21,9 +22,9 @@
 
 
 ## First Look
-![first-look](https://user-images.githubusercontent.com/95596045/155905113-1194a243-238a-46ed-9a1e-658c929a25d9.JPG)
+![first-look]()
 
-![Deployed-Link]()
+![Deployed-Link](https://aimtruong.github.io/react-portfolio/)
 
 
 ## Contributing
