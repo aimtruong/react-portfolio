@@ -23,11 +23,11 @@ function App() {
         components = {components}
         currentComponent = {currentComponent}
         setCurrentComponent = {setCurrentComponent}
-      />
+        />
       <main>
         {(() => {
           if(currentComponent.name === 'About'){
-              return (<About />)
+            return (<About />)
           }
           else if(currentComponent.name === 'Contact'){
             return (<Contact />)
@@ -40,7 +40,8 @@ function App() {
           }
         })()}
       </main>
-      < Footer />
+
+    < Footer />
     </div>
   );
 }
