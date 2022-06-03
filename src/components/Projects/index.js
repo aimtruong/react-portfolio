@@ -62,6 +62,14 @@ const Projects = () => {
             </a>
             </div>
 
+            <div>
+            <a href = 'https://afternoon-fjord-21260.herokuapp.com/' target = '_blank'>
+            <img src = {require('../../assets/images/get-baked.JPG')} alt = 'get-baked' height = '150px'></img>
+            </a>
+            <a href = 'https://github.com/aimtruong/get-baked' target = '_blank'>
+                <img src = {require('../../assets/images/github.png')} alt = 'get baked github' height = '30px'></img>
+            </a>
+            </div>
         </div>
     );
 };
